@@ -1,0 +1,12 @@
+# env files (chứa API key thật — KHÔNG commit)
+.env
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# misc
+.DS_Store

@@ -1,0 +1,842 @@
+[
+  {
+    "id": "pho_bo",
+    "name_vi": "Phở Bò",
+    "name_en": "Beef Pho",
+    "description_vi": "Phở bò truyền thống nước dùng xương ngọt thanh, thịt bò tái chín.",
+    "description_en": "Traditional beef noodle soup with rich bone broth.",
+    "image_url": "/images/pho_bo.jpg",
+    "attributes": {
+      "spicy": 0.1, "sour": 0.0, "sweet": 0.2, "salty": 0.5, "rich": 0.4,
+      "temperature": "hot", "fullness": "full", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["share", "family", "solo"],
+      "restrictions": ["meat"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.7, "review_count": 320
+  },
+  {
+    "id": "pho_ga",
+    "name_vi": "Phở Gà",
+    "name_en": "Chicken Pho",
+    "description_vi": "Phở gà nước dùng nhẹ ngọt, thịt gà xé mềm.",
+    "description_en": "Light and delicate chicken noodle soup.",
+    "image_url": "/images/pho_ga.jpg",
+    "attributes": {
+      "spicy": 0.0, "sour": 0.0, "sweet": 0.3, "salty": 0.4, "rich": 0.3,
+      "temperature": "hot", "fullness": "full", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["solo", "family"],
+      "restrictions": ["meat"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.5, "review_count": 210
+  },
+  {
+    "id": "bun_bo_hue",
+    "name_vi": "Bún Bò Huế",
+    "name_en": "Hue Spicy Beef Noodle",
+    "description_vi": "Bún bò Huế cay nồng đặc trưng, nước dùng sả mắm ruốc.",
+    "description_en": "Fiery central Vietnamese beef noodle with lemongrass broth.",
+    "image_url": "/images/bun_bo_hue.jpg",
+    "attributes": {
+      "spicy": 0.85, "sour": 0.1, "sweet": 0.1, "salty": 0.6, "rich": 0.55,
+      "temperature": "hot", "fullness": "full", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["solo", "share"],
+      "restrictions": ["meat", "pork"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.6, "review_count": 195
+  },
+  {
+    "id": "bun_rieu",
+    "name_vi": "Bún Riêu Cua",
+    "name_en": "Crab Paste Noodle Soup",
+    "description_vi": "Bún riêu cua chua thanh, chả cua thơm béo.",
+    "description_en": "Tangy crab paste noodle soup with tomatoes.",
+    "image_url": "/images/bun_rieu.jpg",
+    "attributes": {
+      "spicy": 0.2, "sour": 0.75, "sweet": 0.2, "salty": 0.5, "rich": 0.4,
+      "temperature": "hot", "fullness": "full", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["solo", "family"],
+      "restrictions": ["seafood", "meat"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.4, "review_count": 145
+  },
+  {
+    "id": "bun_mam",
+    "name_vi": "Bún Mắm",
+    "name_en": "Fermented Fish Noodle Soup",
+    "description_vi": "Bún mắm miền Tây đậm đà, thập cẩm hải sản thịt.",
+    "description_en": "Rich Southern Vietnamese fermented fish noodle soup.",
+    "image_url": "/images/bun_mam.jpg",
+    "attributes": {
+      "spicy": 0.4, "sour": 0.3, "sweet": 0.2, "salty": 0.8, "rich": 0.7,
+      "temperature": "hot", "fullness": "full", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["solo", "share"],
+      "restrictions": ["seafood", "meat", "pork"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.3, "review_count": 88
+  },
+  {
+    "id": "com_tam",
+    "name_vi": "Cơm Tấm Sườn Bì Chả",
+    "name_en": "Broken Rice with Grilled Pork",
+    "description_vi": "Cơm tấm sườn nướng bì chả trứng ốp la đặc trưng Sài Gòn.",
+    "description_en": "Saigon-style broken rice with grilled pork chop, shredded pork skin and steamed egg.",
+    "image_url": "/images/com_tam.jpg",
+    "attributes": {
+      "spicy": 0.0, "sour": 0.1, "sweet": 0.35, "salty": 0.55, "rich": 0.65,
+      "temperature": "hot", "fullness": "full", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["solo", "family"],
+      "restrictions": ["meat", "pork"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.7, "review_count": 410
+  },
+  {
+    "id": "com_ga_hoi_an",
+    "name_vi": "Cơm Gà Hội An",
+    "name_en": "Hoi An Chicken Rice",
+    "description_vi": "Cơm gà Hội An cơm vàng nghệ thơm, gà xé mềm nước tương gừng.",
+    "description_en": "Turmeric rice topped with shredded chicken and ginger soy dipping sauce.",
+    "image_url": "/images/com_ga_hoi_an.jpg",
+    "attributes": {
+      "spicy": 0.05, "sour": 0.15, "sweet": 0.2, "salty": 0.5, "rich": 0.4,
+      "temperature": "hot", "fullness": "full", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["solo", "couple", "family"],
+      "restrictions": ["meat"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.6, "review_count": 180
+  },
+  {
+    "id": "banh_mi",
+    "name_vi": "Bánh Mì Thịt",
+    "name_en": "Vietnamese Sandwich",
+    "description_vi": "Bánh mì giòn rụm nhân thịt nguội pate rau sống.",
+    "description_en": "Crispy baguette with cold cuts, pâté and fresh vegetables.",
+    "image_url": "/images/banh_mi.jpg",
+    "attributes": {
+      "spicy": 0.2, "sour": 0.35, "sweet": 0.1, "salty": 0.5, "rich": 0.45,
+      "temperature": "room", "fullness": "medium", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["solo"],
+      "restrictions": ["meat", "pork"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.5, "review_count": 380
+  },
+  {
+    "id": "banh_mi_chay",
+    "name_vi": "Bánh Mì Chay",
+    "name_en": "Vegetarian Sandwich",
+    "description_vi": "Bánh mì chay nhân đậu hũ rau củ tương đen thơm.",
+    "description_en": "Crispy baguette with tofu, vegetables and hoisin sauce.",
+    "image_url": "/images/banh_mi_chay.jpg",
+    "attributes": {
+      "spicy": 0.1, "sour": 0.2, "sweet": 0.25, "salty": 0.4, "rich": 0.3,
+      "temperature": "room", "fullness": "medium", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["solo"],
+      "restrictions": [], "is_vegan": true, "is_vegetarian": true
+    },
+    "avg_rating": 4.1, "review_count": 65
+  },
+  {
+    "id": "goi_cuon",
+    "name_vi": "Gỏi Cuốn",
+    "name_en": "Fresh Spring Rolls",
+    "description_vi": "Gỏi cuốn tôm thịt rau sống cuốn bánh tráng chấm mắm.",
+    "description_en": "Fresh shrimp and pork rice paper rolls with fish sauce dip.",
+    "image_url": "/images/goi_cuon.jpg",
+    "attributes": {
+      "spicy": 0.0, "sour": 0.2, "sweet": 0.2, "salty": 0.3, "rich": 0.2,
+      "temperature": "cold", "fullness": "light", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["share", "date", "family"],
+      "restrictions": ["meat", "seafood"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.3, "review_count": 120
+  },
+  {
+    "id": "banh_xeo",
+    "name_vi": "Bánh Xèo",
+    "name_en": "Sizzling Crepe",
+    "description_vi": "Bánh xèo giòn vàng nhân tôm thịt giá đỗ cuốn rau sống.",
+    "description_en": "Crispy Vietnamese sizzling crepe with shrimp, pork and bean sprouts.",
+    "image_url": "/images/banh_xeo.jpg",
+    "attributes": {
+      "spicy": 0.1, "sour": 0.3, "sweet": 0.1, "salty": 0.4, "rich": 0.5,
+      "temperature": "hot", "fullness": "medium", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["share", "family", "party"],
+      "restrictions": ["meat", "seafood", "pork"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.5, "review_count": 155
+  },
+  {
+    "id": "banh_cuon",
+    "name_vi": "Bánh Cuốn",
+    "name_en": "Steamed Rice Rolls",
+    "description_vi": "Bánh cuốn nhân thịt mộc nhĩ hành phi thơm ngậy.",
+    "description_en": "Steamed rice rolls filled with pork and wood ear mushroom.",
+    "image_url": "/images/banh_cuon.jpg",
+    "attributes": {
+      "spicy": 0.0, "sour": 0.15, "sweet": 0.2, "salty": 0.45, "rich": 0.4,
+      "temperature": "hot", "fullness": "medium", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["solo", "family"],
+      "restrictions": ["meat", "pork"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.4, "review_count": 130
+  },
+  {
+    "id": "banh_canh_cua",
+    "name_vi": "Bánh Canh Cua",
+    "name_en": "Crab Thick Noodle Soup",
+    "description_vi": "Bánh canh cua ngọt béo, sợi bánh canh dai dai mềm mại.",
+    "description_en": "Thick noodle soup with fresh crab, rich and savory broth.",
+    "image_url": "/images/banh_canh_cua.jpg",
+    "attributes": {
+      "spicy": 0.05, "sour": 0.05, "sweet": 0.35, "salty": 0.5, "rich": 0.7,
+      "temperature": "hot", "fullness": "full", "cuisine": "vietnamese",
+      "price_range": "medium", "group_tags": ["solo", "family"],
+      "restrictions": ["seafood"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.6, "review_count": 165
+  },
+  {
+    "id": "hu_tieu",
+    "name_vi": "Hủ Tiếu Nam Vang",
+    "name_en": "Phnom Penh Noodle Soup",
+    "description_vi": "Hủ tiếu Nam Vang nước dùng ngọt xương, thịt heo tôm gan heo.",
+    "description_en": "Phnom Penh style clear noodle soup with pork and shrimp.",
+    "image_url": "/images/hu_tieu.jpg",
+    "attributes": {
+      "spicy": 0.1, "sour": 0.1, "sweet": 0.3, "salty": 0.5, "rich": 0.5,
+      "temperature": "hot", "fullness": "full", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["solo", "family"],
+      "restrictions": ["meat", "seafood", "pork"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.4, "review_count": 175
+  },
+  {
+    "id": "mi_quang",
+    "name_vi": "Mì Quảng",
+    "name_en": "Quang Noodle",
+    "description_vi": "Mì Quảng miền Trung ít nước, sợi mì nghệ vàng, nhân tôm thịt.",
+    "description_en": "Central Vietnamese dry-style noodle with turmeric, shrimp and pork.",
+    "image_url": "/images/mi_quang.jpg",
+    "attributes": {
+      "spicy": 0.2, "sour": 0.1, "sweet": 0.15, "salty": 0.5, "rich": 0.45,
+      "temperature": "hot", "fullness": "full", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["solo", "share"],
+      "restrictions": ["meat", "seafood", "pork"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.5, "review_count": 140
+  },
+  {
+    "id": "cao_lau",
+    "name_vi": "Cao Lầu Hội An",
+    "name_en": "Hoi An Cao Lau",
+    "description_vi": "Cao lầu Hội An sợi mì đặc biệt giòn dai, xá xíu thơm lừng.",
+    "description_en": "Unique Hoi An noodle dish with BBQ pork and crispy noodle croutons.",
+    "image_url": "/images/cao_lau.jpg",
+    "attributes": {
+      "spicy": 0.1, "sour": 0.15, "sweet": 0.3, "salty": 0.55, "rich": 0.5,
+      "temperature": "hot", "fullness": "medium", "cuisine": "vietnamese",
+      "price_range": "medium", "group_tags": ["solo", "couple", "date"],
+      "restrictions": ["meat", "pork"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.6, "review_count": 115
+  },
+  {
+    "id": "lau_thai",
+    "name_vi": "Lẩu Thái Chua Cay",
+    "name_en": "Thai Hot Pot",
+    "description_vi": "Lẩu Thái chua cay đặc trưng, hải sản tươi sống.",
+    "description_en": "Spicy and sour Thai-style seafood hot pot.",
+    "image_url": "/images/lau_thai.jpg",
+    "attributes": {
+      "spicy": 0.9, "sour": 0.75, "sweet": 0.1, "salty": 0.5, "rich": 0.55,
+      "temperature": "hot", "fullness": "full", "cuisine": "thai",
+      "price_range": "medium", "group_tags": ["party", "share", "friends"],
+      "restrictions": ["seafood", "meat"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.8, "review_count": 280
+  },
+  {
+    "id": "lau_nuong",
+    "name_vi": "Lẩu Nướng BBQ",
+    "name_en": "Korean BBQ Hot Pot",
+    "description_vi": "Lẩu nướng kiểu Hàn vừa nhúng vừa nướng, đủ loại thịt hải sản.",
+    "description_en": "Korean-style combined hot pot and BBQ grill, a group feast.",
+    "image_url": "/images/lau_nuong.jpg",
+    "attributes": {
+      "spicy": 0.5, "sour": 0.1, "sweet": 0.3, "salty": 0.5, "rich": 0.8,
+      "temperature": "hot", "fullness": "full", "cuisine": "korean",
+      "price_range": "expensive", "group_tags": ["party", "friends", "date"],
+      "restrictions": ["meat", "seafood", "pork"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.7, "review_count": 220
+  },
+  {
+    "id": "lau_riêu_cua",
+    "name_vi": "Lẩu Riêu Cua",
+    "name_en": "Crab Paste Hot Pot",
+    "description_vi": "Lẩu riêu cua chua thanh, bò viên thịt heo ăn kèm rau sạch.",
+    "description_en": "Tangy crab hot pot with beef balls and fresh vegetables.",
+    "image_url": "/images/lau_rieu_cua.jpg",
+    "attributes": {
+      "spicy": 0.25, "sour": 0.7, "sweet": 0.2, "salty": 0.45, "rich": 0.45,
+      "temperature": "hot", "fullness": "full", "cuisine": "vietnamese",
+      "price_range": "medium", "group_tags": ["family", "share", "friends"],
+      "restrictions": ["seafood", "meat"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.5, "review_count": 155
+  },
+  {
+    "id": "ramen_tonkotsu",
+    "name_vi": "Ramen Tonkotsu",
+    "name_en": "Tonkotsu Ramen",
+    "description_vi": "Ramen Nhật nước dùng xương heo hầm 12h béo ngậy, thịt chashu mềm tan.",
+    "description_en": "Japanese ramen with rich 12-hour pork bone broth and melt-in-mouth chashu.",
+    "image_url": "/images/ramen_tonkotsu.jpg",
+    "attributes": {
+      "spicy": 0.05, "sour": 0.0, "sweet": 0.1, "salty": 0.6, "rich": 0.9,
+      "temperature": "hot", "fullness": "full", "cuisine": "japanese",
+      "price_range": "medium", "group_tags": ["solo", "date", "couple"],
+      "restrictions": ["meat", "pork"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.7, "review_count": 195
+  },
+  {
+    "id": "ramen_spicy_miso",
+    "name_vi": "Ramen Miso Cay",
+    "name_en": "Spicy Miso Ramen",
+    "description_vi": "Ramen miso đậm vị cay, topping phong phú ngô bơ trứng.",
+    "description_en": "Bold spicy miso ramen with corn, butter and seasoned egg.",
+    "image_url": "/images/ramen_miso.jpg",
+    "attributes": {
+      "spicy": 0.65, "sour": 0.05, "sweet": 0.15, "salty": 0.65, "rich": 0.75,
+      "temperature": "hot", "fullness": "full", "cuisine": "japanese",
+      "price_range": "medium", "group_tags": ["solo", "date"],
+      "restrictions": ["meat", "pork"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.6, "review_count": 145
+  },
+  {
+    "id": "tteokbokki",
+    "name_vi": "Tteokbokki",
+    "name_en": "Spicy Rice Cakes",
+    "description_vi": "Bánh gạo Hàn xốt cay ngọt đặc trưng, thêm eomuk và trứng.",
+    "description_en": "Korean spicy-sweet rice cakes with fish cake and boiled egg.",
+    "image_url": "/images/tteokbokki.jpg",
+    "attributes": {
+      "spicy": 0.7, "sour": 0.0, "sweet": 0.55, "salty": 0.45, "rich": 0.35,
+      "temperature": "hot", "fullness": "medium", "cuisine": "korean",
+      "price_range": "cheap", "group_tags": ["solo", "date", "party"],
+      "restrictions": [], "is_vegan": false, "is_vegetarian": true
+    },
+    "avg_rating": 4.5, "review_count": 230
+  },
+  {
+    "id": "bibimbap",
+    "name_vi": "Bibimbap",
+    "name_en": "Bibimbap Mixed Rice",
+    "description_vi": "Cơm trộn Hàn đầy màu sắc, rau củ trứng thịt bò xốt gochujang.",
+    "description_en": "Korean mixed rice bowl with colorful vegetables, beef and spicy gochujang.",
+    "image_url": "/images/bibimbap.jpg",
+    "attributes": {
+      "spicy": 0.45, "sour": 0.1, "sweet": 0.2, "salty": 0.45, "rich": 0.5,
+      "temperature": "hot", "fullness": "full", "cuisine": "korean",
+      "price_range": "medium", "group_tags": ["solo", "couple"],
+      "restrictions": ["meat"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.4, "review_count": 160
+  },
+  {
+    "id": "samgyeopsal",
+    "name_vi": "Samgyeopsal",
+    "name_en": "Korean Grilled Pork Belly",
+    "description_vi": "Thịt ba chỉ nướng Hàn ăn cùng rau sống kimchi tương ssam.",
+    "description_en": "Korean grilled pork belly wrapped in lettuce with kimchi and ssam sauce.",
+    "image_url": "/images/samgyeopsal.jpg",
+    "attributes": {
+      "spicy": 0.35, "sour": 0.2, "sweet": 0.1, "salty": 0.55, "rich": 0.85,
+      "temperature": "hot", "fullness": "full", "cuisine": "korean",
+      "price_range": "expensive", "group_tags": ["party", "friends", "date", "couple"],
+      "restrictions": ["meat", "pork"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.8, "review_count": 300
+  },
+  {
+    "id": "sushi_set",
+    "name_vi": "Set Sushi",
+    "name_en": "Sushi Set",
+    "description_vi": "Set sushi Nhật đa dạng cá hồi cá ngừ trứng cuộn đặc biệt.",
+    "description_en": "Japanese sushi set with salmon, tuna, egg and special rolls.",
+    "image_url": "/images/sushi_set.jpg",
+    "attributes": {
+      "spicy": 0.1, "sour": 0.3, "sweet": 0.15, "salty": 0.4, "rich": 0.5,
+      "temperature": "cold", "fullness": "medium", "cuisine": "japanese",
+      "price_range": "expensive", "group_tags": ["date", "couple", "solo"],
+      "restrictions": ["seafood"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.6, "review_count": 175
+  },
+  {
+    "id": "takoyaki",
+    "name_vi": "Takoyaki",
+    "name_en": "Octopus Balls",
+    "description_vi": "Bánh bạch tuộc Nhật nóng hổi sốt mayo tương Worcestershire.",
+    "description_en": "Japanese octopus balls topped with mayo and takoyaki sauce.",
+    "image_url": "/images/takoyaki.jpg",
+    "attributes": {
+      "spicy": 0.1, "sour": 0.15, "sweet": 0.3, "salty": 0.5, "rich": 0.55,
+      "temperature": "hot", "fullness": "light", "cuisine": "japanese",
+      "price_range": "cheap", "group_tags": ["solo", "date", "party"],
+      "restrictions": ["seafood"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.4, "review_count": 190
+  },
+  {
+    "id": "pad_thai",
+    "name_vi": "Pad Thai",
+    "name_en": "Pad Thai",
+    "description_vi": "Phở xào kiểu Thái chua ngọt tôm trứng đậu phộng rang.",
+    "description_en": "Thai stir-fried noodles with shrimp, egg, and roasted peanuts.",
+    "image_url": "/images/pad_thai.jpg",
+    "attributes": {
+      "spicy": 0.3, "sour": 0.45, "sweet": 0.4, "salty": 0.45, "rich": 0.45,
+      "temperature": "hot", "fullness": "medium", "cuisine": "thai",
+      "price_range": "medium", "group_tags": ["solo", "couple", "date"],
+      "restrictions": ["seafood", "meat"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.4, "review_count": 145
+  },
+  {
+    "id": "tom_yum",
+    "name_vi": "Canh Tom Yum",
+    "name_en": "Tom Yum Soup",
+    "description_vi": "Canh Tom Yum Thái chua cay thơm lừng nấm tôm sả lá chanh.",
+    "description_en": "Classic Thai hot and sour soup with shrimp, mushrooms and lemongrass.",
+    "image_url": "/images/tom_yum.jpg",
+    "attributes": {
+      "spicy": 0.75, "sour": 0.8, "sweet": 0.05, "salty": 0.45, "rich": 0.4,
+      "temperature": "hot", "fullness": "light", "cuisine": "thai",
+      "price_range": "medium", "group_tags": ["share", "couple"],
+      "restrictions": ["seafood"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.5, "review_count": 130
+  },
+  {
+    "id": "pizza_margherita",
+    "name_vi": "Pizza Margherita",
+    "name_en": "Margherita Pizza",
+    "description_vi": "Pizza Ý classic đế mỏng giòn sốt cà chua phô mai mozzarella.",
+    "description_en": "Classic Italian thin-crust pizza with tomato sauce and mozzarella.",
+    "image_url": "/images/pizza.jpg",
+    "attributes": {
+      "spicy": 0.05, "sour": 0.2, "sweet": 0.15, "salty": 0.45, "rich": 0.6,
+      "temperature": "hot", "fullness": "full", "cuisine": "western",
+      "price_range": "medium", "group_tags": ["share", "friends", "family", "party"],
+      "restrictions": [], "is_vegan": false, "is_vegetarian": true
+    },
+    "avg_rating": 4.3, "review_count": 185
+  },
+  {
+    "id": "pasta_carbonara",
+    "name_vi": "Pasta Carbonara",
+    "name_en": "Pasta Carbonara",
+    "description_vi": "Pasta Ý sốt carbonara kem trứng bacon phô mai parmesan béo ngậy.",
+    "description_en": "Creamy Italian pasta with egg, bacon and parmesan cheese.",
+    "image_url": "/images/carbonara.jpg",
+    "attributes": {
+      "spicy": 0.0, "sour": 0.05, "sweet": 0.05, "salty": 0.55, "rich": 0.9,
+      "temperature": "hot", "fullness": "full", "cuisine": "western",
+      "price_range": "medium", "group_tags": ["date", "couple", "solo"],
+      "restrictions": ["meat", "pork"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.5, "review_count": 145
+  },
+  {
+    "id": "burger_bbq",
+    "name_vi": "Burger BBQ Bò",
+    "name_en": "BBQ Beef Burger",
+    "description_vi": "Burger bò Mỹ cỡ lớn sốt BBQ khói cheddar caramelized onion.",
+    "description_en": "American-style beef burger with BBQ sauce, cheddar and caramelized onion.",
+    "image_url": "/images/burger.jpg",
+    "attributes": {
+      "spicy": 0.15, "sour": 0.1, "sweet": 0.3, "salty": 0.55, "rich": 0.75,
+      "temperature": "hot", "fullness": "full", "cuisine": "fastfood",
+      "price_range": "medium", "group_tags": ["solo", "date", "party"],
+      "restrictions": ["meat"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.3, "review_count": 240
+  },
+  {
+    "id": "ga_ran",
+    "name_vi": "Gà Rán Giòn",
+    "name_en": "Crispy Fried Chicken",
+    "description_vi": "Gà rán giòn rụm sốt cay Hàn hoặc tương mật ong.",
+    "description_en": "Crispy Korean-style fried chicken with spicy or honey sauce.",
+    "image_url": "/images/ga_ran.jpg",
+    "attributes": {
+      "spicy": 0.45, "sour": 0.05, "sweet": 0.4, "salty": 0.5, "rich": 0.65,
+      "temperature": "hot", "fullness": "medium", "cuisine": "fastfood",
+      "price_range": "medium", "group_tags": ["solo", "party", "friends"],
+      "restrictions": ["meat"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.5, "review_count": 310
+  },
+  {
+    "id": "com_chay",
+    "name_vi": "Cơm Chay",
+    "name_en": "Vegetarian Rice Plate",
+    "description_vi": "Cơm chay đậu hũ nướng nấm rau củ đa dạng thanh đạm.",
+    "description_en": "Vegetarian rice plate with grilled tofu, mushrooms and seasonal vegetables.",
+    "image_url": "/images/com_chay.jpg",
+    "attributes": {
+      "spicy": 0.0, "sour": 0.05, "sweet": 0.2, "salty": 0.4, "rich": 0.25,
+      "temperature": "hot", "fullness": "full", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["solo", "family"],
+      "restrictions": [], "is_vegan": true, "is_vegetarian": true
+    },
+    "avg_rating": 4.2, "review_count": 85
+  },
+  {
+    "id": "bun_chay",
+    "name_vi": "Bún Chay",
+    "name_en": "Vegetarian Noodle Soup",
+    "description_vi": "Bún chay nước dùng nấm thanh ngọt, đậu hũ chiên giòn.",
+    "description_en": "Light mushroom broth noodle soup with crispy tofu.",
+    "image_url": "/images/bun_chay.jpg",
+    "attributes": {
+      "spicy": 0.05, "sour": 0.1, "sweet": 0.25, "salty": 0.35, "rich": 0.2,
+      "temperature": "hot", "fullness": "medium", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["solo"],
+      "restrictions": [], "is_vegan": true, "is_vegetarian": true
+    },
+    "avg_rating": 4.0, "review_count": 55
+  },
+  {
+    "id": "salad_ga",
+    "name_vi": "Salad Gà Nướng",
+    "name_en": "Grilled Chicken Salad",
+    "description_vi": "Salad ức gà nướng rau xanh sốt mè rang healthy.",
+    "description_en": "Healthy grilled chicken salad with mixed greens and sesame dressing.",
+    "image_url": "/images/salad_ga.jpg",
+    "attributes": {
+      "spicy": 0.0, "sour": 0.3, "sweet": 0.15, "salty": 0.3, "rich": 0.2,
+      "temperature": "cold", "fullness": "light", "cuisine": "western",
+      "price_range": "medium", "group_tags": ["solo", "date"],
+      "restrictions": ["meat"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.1, "review_count": 75
+  },
+  {
+    "id": "bun_dau_mam_tom",
+    "name_vi": "Bún Đậu Mắm Tôm",
+    "name_en": "Tofu & Noodle with Shrimp Paste",
+    "description_vi": "Bún đậu hũ chiên giòn chả cốm lòng non chấm mắm tôm đặc biệt.",
+    "description_en": "Fried tofu and noodle with unique fermented shrimp paste dip.",
+    "image_url": "/images/bun_dau.jpg",
+    "attributes": {
+      "spicy": 0.2, "sour": 0.2, "sweet": 0.05, "salty": 0.8, "rich": 0.6,
+      "temperature": "room", "fullness": "full", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["share", "friends"],
+      "restrictions": ["meat", "seafood", "pork"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.4, "review_count": 195
+  },
+  {
+    "id": "ga_nuong_muoi_ot",
+    "name_vi": "Gà Nướng Muối Ớt",
+    "name_en": "Salt & Chili Grilled Chicken",
+    "description_vi": "Gà ta nướng muối ớt thơm khói, da giòn thịt mọng.",
+    "description_en": "Free-range chicken grilled with salt and chili, crispy skin.",
+    "image_url": "/images/ga_nuong.jpg",
+    "attributes": {
+      "spicy": 0.6, "sour": 0.1, "sweet": 0.05, "salty": 0.65, "rich": 0.55,
+      "temperature": "hot", "fullness": "full", "cuisine": "vietnamese",
+      "price_range": "medium", "group_tags": ["share", "family", "friends"],
+      "restrictions": ["meat"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.6, "review_count": 215
+  },
+  {
+    "id": "hai_san_nuong",
+    "name_vi": "Hải Sản Nướng",
+    "name_en": "Grilled Seafood Platter",
+    "description_vi": "Mực tôm sò điệp hàu nướng muối ớt mỡ hành.",
+    "description_en": "Grilled seafood platter with squid, shrimp, scallop and oysters.",
+    "image_url": "/images/hai_san_nuong.jpg",
+    "attributes": {
+      "spicy": 0.3, "sour": 0.15, "sweet": 0.15, "salty": 0.6, "rich": 0.6,
+      "temperature": "hot", "fullness": "full", "cuisine": "vietnamese",
+      "price_range": "expensive", "group_tags": ["party", "friends", "date"],
+      "restrictions": ["seafood"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.7, "review_count": 185
+  },
+  {
+    "id": "chao_long",
+    "name_vi": "Cháo Lòng",
+    "name_en": "Pork Offal Congee",
+    "description_vi": "Cháo trắng nóng hổi lòng heo tim gan dồi thơm ngon.",
+    "description_en": "Warm rice congee with pork offal, heart and liver.",
+    "image_url": "/images/chao_long.jpg",
+    "attributes": {
+      "spicy": 0.1, "sour": 0.05, "sweet": 0.1, "salty": 0.45, "rich": 0.45,
+      "temperature": "hot", "fullness": "medium", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["solo"],
+      "restrictions": ["meat", "pork"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.3, "review_count": 110
+  },
+  {
+    "id": "chao_ga",
+    "name_vi": "Cháo Gà",
+    "name_en": "Chicken Congee",
+    "description_vi": "Cháo gà nóng hổi hành gừng thơm dịu bổ dưỡng.",
+    "description_en": "Comforting chicken congee with ginger and green onion.",
+    "image_url": "/images/chao_ga.jpg",
+    "attributes": {
+      "spicy": 0.0, "sour": 0.0, "sweet": 0.15, "salty": 0.4, "rich": 0.3,
+      "temperature": "hot", "fullness": "medium", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["solo", "family"],
+      "restrictions": ["meat"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.3, "review_count": 95
+  },
+  {
+    "id": "banh_trang_nuong",
+    "name_vi": "Bánh Tráng Nướng",
+    "name_en": "Grilled Rice Paper",
+    "description_vi": "Bánh tráng nướng Đà Lạt trứng hành tươi giòn phủ topping đa dạng.",
+    "description_en": "Dalat-style grilled rice paper with egg and various toppings.",
+    "image_url": "/images/banh_trang_nuong.jpg",
+    "attributes": {
+      "spicy": 0.15, "sour": 0.1, "sweet": 0.1, "salty": 0.5, "rich": 0.35,
+      "temperature": "hot", "fullness": "light", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["solo", "date", "party"],
+      "restrictions": [], "is_vegan": false, "is_vegetarian": true
+    },
+    "avg_rating": 4.4, "review_count": 240
+  },
+  {
+    "id": "bun_cha",
+    "name_vi": "Bún Chả Hà Nội",
+    "name_en": "Hanoi Grilled Pork Noodle",
+    "description_vi": "Bún chả Hà Nội chả nướng thơm khói chấm nước mắm chua ngọt.",
+    "description_en": "Hanoi-style grilled pork with rice noodle and sweet fish sauce dip.",
+    "image_url": "/images/bun_cha.jpg",
+    "attributes": {
+      "spicy": 0.15, "sour": 0.4, "sweet": 0.35, "salty": 0.5, "rich": 0.5,
+      "temperature": "room", "fullness": "full", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["solo", "share"],
+      "restrictions": ["meat", "pork"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.5, "review_count": 175
+  },
+  {
+    "id": "goi_ngo_sen",
+    "name_vi": "Gỏi Ngó Sen",
+    "name_en": "Lotus Stem Salad",
+    "description_vi": "Gỏi ngó sen tôm thịt giòn thanh chua ngọt hấp dẫn.",
+    "description_en": "Refreshing lotus stem salad with shrimp and pork.",
+    "image_url": "/images/goi_ngo_sen.jpg",
+    "attributes": {
+      "spicy": 0.1, "sour": 0.6, "sweet": 0.3, "salty": 0.35, "rich": 0.2,
+      "temperature": "cold", "fullness": "light", "cuisine": "vietnamese",
+      "price_range": "medium", "group_tags": ["share", "date", "couple"],
+      "restrictions": ["meat", "seafood"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.3, "review_count": 90
+  },
+  {
+    "id": "nuoc_mia",
+    "name_vi": "Nước Mía",
+    "name_en": "Sugarcane Juice",
+    "description_vi": "Nước mía vắt tươi mát lạnh thanh ngọt giải nhiệt.",
+    "description_en": "Fresh-pressed sugarcane juice, sweet and refreshing.",
+    "image_url": "/images/nuoc_mia.jpg",
+    "attributes": {
+      "spicy": 0.0, "sour": 0.05, "sweet": 0.9, "salty": 0.0, "rich": 0.1,
+      "temperature": "cold", "fullness": "light", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["solo", "date"],
+      "restrictions": [], "is_vegan": true, "is_vegetarian": true
+    },
+    "avg_rating": 4.3, "review_count": 180
+  },
+  {
+    "id": "tra_sua",
+    "name_vi": "Trà Sữa Trân Châu",
+    "name_en": "Bubble Milk Tea",
+    "description_vi": "Trà sữa trân châu đen nhiều vị đường đá tuỳ chọn.",
+    "description_en": "Bubble milk tea with chewy tapioca pearls, customize sugar and ice.",
+    "image_url": "/images/tra_sua.jpg",
+    "attributes": {
+      "spicy": 0.0, "sour": 0.0, "sweet": 0.8, "salty": 0.0, "rich": 0.4,
+      "temperature": "cold", "fullness": "light", "cuisine": "taiwanese",
+      "price_range": "cheap", "group_tags": ["solo", "date", "party"],
+      "restrictions": [], "is_vegan": false, "is_vegetarian": true
+    },
+    "avg_rating": 4.3, "review_count": 420
+  },
+  {
+    "id": "sinh_to_bo",
+    "name_vi": "Sinh Tố Bơ",
+    "name_en": "Avocado Smoothie",
+    "description_vi": "Sinh tố bơ béo ngậy ngọt dịu kem mịn sữa đặc.",
+    "description_en": "Creamy avocado smoothie with condensed milk, rich and smooth.",
+    "image_url": "/images/sinh_to_bo.jpg",
+    "attributes": {
+      "spicy": 0.0, "sour": 0.0, "sweet": 0.65, "salty": 0.0, "rich": 0.75,
+      "temperature": "cold", "fullness": "light", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["solo", "date"],
+      "restrictions": [], "is_vegan": false, "is_vegetarian": true
+    },
+    "avg_rating": 4.4, "review_count": 165
+  },
+  {
+    "id": "kem_dua",
+    "name_vi": "Kem Dừa",
+    "name_en": "Coconut Ice Cream",
+    "description_vi": "Kem dừa non mát lạnh béo ngậy thơm, tráng miệng nhẹ nhàng.",
+    "description_en": "Refreshing coconut ice cream served in a coconut shell.",
+    "image_url": "/images/kem_dua.jpg",
+    "attributes": {
+      "spicy": 0.0, "sour": 0.0, "sweet": 0.8, "salty": 0.05, "rich": 0.6,
+      "temperature": "cold", "fullness": "light", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["solo", "date", "couple"],
+      "restrictions": [], "is_vegan": false, "is_vegetarian": true
+    },
+    "avg_rating": 4.5, "review_count": 200
+  },
+  {
+    "id": "che_ba_mau",
+    "name_vi": "Chè Ba Màu",
+    "name_en": "Three-Color Dessert",
+    "description_vi": "Chè ba màu đậu xanh đậu đỏ thạch sữa dừa mát lạnh.",
+    "description_en": "Vietnamese three-color dessert with mung bean, red bean and coconut milk.",
+    "image_url": "/images/che_ba_mau.jpg",
+    "attributes": {
+      "spicy": 0.0, "sour": 0.0, "sweet": 0.85, "salty": 0.0, "rich": 0.35,
+      "temperature": "cold", "fullness": "light", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["solo", "couple", "date"],
+      "restrictions": [], "is_vegan": true, "is_vegetarian": true
+    },
+    "avg_rating": 4.3, "review_count": 145
+  },
+  {
+    "id": "banh_mi_op_la",
+    "name_vi": "Bánh Mì Ốp La",
+    "name_en": "Baguette with Fried Egg",
+    "description_vi": "Bánh mì giòn ốp la trứng heo quay tương đen sáng sớm.",
+    "description_en": "Morning baguette with sunny-side up egg and soy sauce.",
+    "image_url": "/images/banh_mi_op_la.jpg",
+    "attributes": {
+      "spicy": 0.05, "sour": 0.05, "sweet": 0.1, "salty": 0.45, "rich": 0.5,
+      "temperature": "hot", "fullness": "medium", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["solo"],
+      "restrictions": ["pork"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.2, "review_count": 160
+  },
+  {
+    "id": "xoi_ga",
+    "name_vi": "Xôi Gà",
+    "name_en": "Sticky Rice with Chicken",
+    "description_vi": "Xôi trắng dẻo gà xé hành phi thơm lừng no căng.",
+    "description_en": "Sticky rice topped with shredded chicken and crispy shallots.",
+    "image_url": "/images/xoi_ga.jpg",
+    "attributes": {
+      "spicy": 0.0, "sour": 0.0, "sweet": 0.1, "salty": 0.45, "rich": 0.5,
+      "temperature": "hot", "fullness": "full", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["solo", "family"],
+      "restrictions": ["meat"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.3, "review_count": 130
+  },
+  {
+    "id": "steakhouse",
+    "name_vi": "Bò Beefsteak",
+    "name_en": "Beef Steak",
+    "description_vi": "Bò Tây mềm mọng chín medium sốt tiêu đen khoai tây nghiền.",
+    "description_en": "Juicy medium-cooked beef steak with black pepper sauce and mashed potato.",
+    "image_url": "/images/steak.jpg",
+    "attributes": {
+      "spicy": 0.1, "sour": 0.05, "sweet": 0.05, "salty": 0.5, "rich": 0.85,
+      "temperature": "hot", "fullness": "full", "cuisine": "western",
+      "price_range": "expensive", "group_tags": ["date", "couple", "solo"],
+      "restrictions": ["meat"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.6, "review_count": 155
+  },
+  {
+    "id": "spring_roll_chien",
+    "name_vi": "Chả Giò Chiên",
+    "name_en": "Fried Spring Rolls",
+    "description_vi": "Chả giò chiên giòn rụm nhân thịt mộc nhĩ cà rốt thơm ngon.",
+    "description_en": "Crispy fried spring rolls with pork, wood ear mushroom and carrot.",
+    "image_url": "/images/cha_gio.jpg",
+    "attributes": {
+      "spicy": 0.1, "sour": 0.2, "sweet": 0.1, "salty": 0.45, "rich": 0.5,
+      "temperature": "hot", "fullness": "light", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["share", "family", "party"],
+      "restrictions": ["meat", "pork"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.4, "review_count": 170
+  },
+  {
+    "id": "dimsum",
+    "name_vi": "Dimsum",
+    "name_en": "Dim Sum",
+    "description_vi": "Dimsum Quảng Đông hấp chiên đa dạng ha cảo siu mai bánh bao.",
+    "description_en": "Cantonese dim sum with steamed dumplings, siu mai and bao buns.",
+    "image_url": "/images/dimsum.jpg",
+    "attributes": {
+      "spicy": 0.05, "sour": 0.1, "sweet": 0.2, "salty": 0.45, "rich": 0.55,
+      "temperature": "hot", "fullness": "medium", "cuisine": "chinese",
+      "price_range": "medium", "group_tags": ["share", "family", "friends", "party"],
+      "restrictions": ["meat", "seafood", "pork"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.5, "review_count": 200
+  },
+  {
+    "id": "com_rang_duong_chau",
+    "name_vi": "Cơm Rang Dương Châu",
+    "name_en": "Yangzhou Fried Rice",
+    "description_vi": "Cơm rang kiểu Trung tôm trứng lạp xưởng hạt đậu.",
+    "description_en": "Classic Yangzhou fried rice with shrimp, egg and Chinese sausage.",
+    "image_url": "/images/com_rang.jpg",
+    "attributes": {
+      "spicy": 0.05, "sour": 0.0, "sweet": 0.15, "salty": 0.55, "rich": 0.55,
+      "temperature": "hot", "fullness": "full", "cuisine": "chinese",
+      "price_range": "cheap", "group_tags": ["solo", "share"],
+      "restrictions": ["meat", "seafood", "pork"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.2, "review_count": 175
+  },
+  {
+    "id": "banhmy_chay_dau_hu",
+    "name_vi": "Đậu Hũ Sốt Cà Chua",
+    "name_en": "Tofu in Tomato Sauce",
+    "description_vi": "Đậu hũ non sốt cà chua ngọt dịu hành lá thơm dùng với cơm.",
+    "description_en": "Soft tofu braised in sweet tomato sauce, great with rice.",
+    "image_url": "/images/dau_hu_ca_chua.jpg",
+    "attributes": {
+      "spicy": 0.05, "sour": 0.3, "sweet": 0.4, "salty": 0.35, "rich": 0.25,
+      "temperature": "hot", "fullness": "medium", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["solo", "family"],
+      "restrictions": [], "is_vegan": true, "is_vegetarian": true
+    },
+    "avg_rating": 4.1, "review_count": 70
+  },
+  {
+    "id": "muc_rang_muoi",
+    "name_vi": "Mực Rang Muối",
+    "name_en": "Salt & Pepper Squid",
+    "description_vi": "Mực ống rang muối ớt giòn thơm cay nhẹ nhắm bia hoặc ăn cơm.",
+    "description_en": "Crispy salt and pepper squid, great as a snack or with rice.",
+    "image_url": "/images/muc_rang_muoi.jpg",
+    "attributes": {
+      "spicy": 0.45, "sour": 0.05, "sweet": 0.05, "salty": 0.7, "rich": 0.45,
+      "temperature": "hot", "fullness": "light", "cuisine": "vietnamese",
+      "price_range": "medium", "group_tags": ["party", "friends", "share"],
+      "restrictions": ["seafood"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.5, "review_count": 190
+  }
+]

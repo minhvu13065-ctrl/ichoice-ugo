@@ -1,0 +1,71 @@
+{
+  "splash": {
+    "start": "Get Started"
+  },
+  "home": {
+    "tagline": "No more indecision — pick a dish in 30 seconds.",
+    "start": "Start Choosing 🍜",
+    "select_mode": "Who are you eating with today?",
+    "solo": "Just me",
+    "couple": "Date",
+    "friends": "Friends",
+    "family": "Family"
+  },
+  "quiz": {
+    "progress": "Question {current}/{total}",
+    "back": "Back",
+    "thinking": "Analyzing your taste..."
+  },
+  "result": {
+    "title": "Your dish for today!",
+    "confidence": "Match score",
+    "why": "Why this?",
+    "view_map": "Find nearby spots 🗺️",
+    "swap": "Try another dish 🔄",
+    "adjust": "Tweak 1 preference ✏️",
+    "rate": "Rate this dish ⭐"
+  },
+  "map": {
+    "title": "Spots near you",
+    "km": "km",
+    "rating": "Rating",
+    "locate": "Locate me",
+    "enter_address": "Enter address manually",
+    "no_places": "No spots found nearby."
+  },
+  "review": {
+    "title": "How was it?",
+    "stars": "Rate with stars",
+    "tags_label": "Quick impressions",
+    "comment": "Additional comment (optional)",
+    "submit": "Submit review",
+    "thanks": "Thanks! 🙌",
+    "tags": {
+      "delicious": "Delicious",
+      "right_taste": "Spot on",
+      "too_salty": "Too salty",
+      "too_spicy": "Too spicy",
+      "portion_small": "Small portion",
+      "good_price": "Good value"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "map": "Map",
+    "settings": "Settings"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "theme": "Theme",
+    "theme_light": "Light",
+    "theme_dark": "Dark",
+    "theme_sunset": "Sunset",
+    "theme_ocean": "Ocean"
+  },
+  "error": {
+    "api_fail": "System is busy, please try again!",
+    "location_denied": "Location access denied. Please enter your address manually.",
+    "swap_limit": "You've swapped too many times 😅"
+  }
+}

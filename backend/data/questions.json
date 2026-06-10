@@ -1,0 +1,206 @@
+[
+  {
+    "id": "q_hunger",
+    "order": 1,
+    "axis": "hunger_level",
+    "text_vi": "Bụng bạn đang ở mức nào?",
+    "text_en": "How hungry are you right now?",
+    "options": [
+      {"value": "light", "label_vi": "Nhâm nhi thôi 🍡", "label_en": "Just a snack 🍡"},
+      {"value": "medium", "label_vi": "Đói vừa vừa 😋", "label_en": "Kinda hungry 😋"},
+      {"value": "full", "label_vi": "Đói cồn cào 🔥", "label_en": "Starving! 🔥"}
+    ],
+    "condition": null
+  },
+  {
+    "id": "q_temperature",
+    "order": 2,
+    "axis": "temperature",
+    "text_vi": "Hôm nay bạn muốn gì?",
+    "text_en": "What temperature are you feeling?",
+    "options": [
+      {"value": "hot", "label_vi": "Nóng hổi khói bay 🍲", "label_en": "Piping hot 🍲"},
+      {"value": "cold", "label_vi": "Mát lạnh sảng khoái 🧊", "label_en": "Cool & icy 🧊"},
+      {"value": "any", "label_vi": "Miễn ngon là được 🤷", "label_en": "Either works 🤷"}
+    ],
+    "condition": null
+  },
+  {
+    "id": "q_flavor_main",
+    "order": 3,
+    "axis": "flavor",
+    "text_vi": "Vị chủ đạo bạn đang thèm?",
+    "text_en": "What main flavor are you craving?",
+    "options": [
+      {"value": "spicy", "label_vi": "Cay xé lưỡi 🌶️", "label_en": "Burn my tongue 🌶️"},
+      {"value": "sour", "label_vi": "Chua thanh sảng khoái 🍋", "label_en": "Tangy & sour 🍋"},
+      {"value": "sweet", "label_vi": "Ngọt ngào dịu dàng 🍬", "label_en": "Sweet & soft 🍬"},
+      {"value": "rich", "label_vi": "Béo đậm đà ngậy 🧀", "label_en": "Rich & creamy 🧀"},
+      {"value": "mild", "label_vi": "Thanh đạm nhẹ bụng 🌿", "label_en": "Light & clean 🌿"},
+      {"value": "salty", "label_vi": "Mặn mà đậm vị 🧂", "label_en": "Bold & savory 🧂"}
+    ],
+    "condition": null
+  },
+  {
+    "id": "q_texture",
+    "order": 4,
+    "axis": "texture",
+    "text_vi": "Bạn thích kiểu ăn nào hơn?",
+    "text_en": "What texture/style do you prefer?",
+    "options": [
+      {"value": "soupy", "label_vi": "Nhiều nước, húp slurp 🍜", "label_en": "Soupy & slurpy 🍜"},
+      {"value": "crispy", "label_vi": "Giòn rụm, khô ráo 🥨", "label_en": "Crispy & dry 🥨"},
+      {"value": "soft", "label_vi": "Mềm mại, dễ ăn 🥣", "label_en": "Soft & tender 🥣"},
+      {"value": "fresh", "label_vi": "Tươi mát, nhiều rau 🥗", "label_en": "Fresh & leafy 🥗"}
+    ],
+    "condition": null
+  },
+  {
+    "id": "q_cuisine",
+    "order": 5,
+    "axis": "cuisine",
+    "text_vi": "Hôm nay muốn ăn vùng nào?",
+    "text_en": "Which cuisine are you in the mood for?",
+    "options": [
+      {"value": "vietnamese", "label_vi": "Việt Nam thuần túy 🇻🇳", "label_en": "Vietnamese 🇻🇳"},
+      {"value": "korean", "label_vi": "Hàn Quốc đang hot 🇰🇷", "label_en": "Korean 🇰🇷"},
+      {"value": "japanese", "label_vi": "Nhật Bản tinh tế 🇯🇵", "label_en": "Japanese 🇯🇵"},
+      {"value": "any", "label_vi": "Tuỳ bụng quyết định 🌍", "label_en": "Surprise me 🌍"}
+    ],
+    "condition": null
+  },
+  {
+    "id": "q_cuisine_vn",
+    "order": 6,
+    "axis": "cuisine_sub",
+    "text_vi": "Miền nào trong lòng Việt Nam?",
+    "text_en": "Which region of Vietnam?",
+    "options": [
+      {"value": "north", "label_vi": "Miền Bắc thanh đạm 🌾", "label_en": "North — delicate"},
+      {"value": "central", "label_vi": "Miền Trung đậm cay 🌶️", "label_en": "Central — bold & spicy"},
+      {"value": "south", "label_vi": "Miền Nam ngọt béo 🥥", "label_en": "South — sweet & rich"},
+      {"value": "any", "label_vi": "Miễn là Việt Nam 🇻🇳", "label_en": "Anywhere Vietnamese"}
+    ],
+    "condition": {"axis": "cuisine", "value": "vietnamese"}
+  },
+  {
+    "id": "q_price",
+    "order": 7,
+    "axis": "price_range",
+    "text_vi": "Hôm nay ví tiền ở tình trạng nào?",
+    "text_en": "How's the wallet today?",
+    "options": [
+      {"value": "cheap", "label_vi": "Bình dân thôi 🪙 (<50k)", "label_en": "Budget mode 🪙 (<50k)"},
+      {"value": "medium", "label_vi": "Tầm trung ổn áp 💵 (50–150k)", "label_en": "Mid-range 💵 (50–150k)"},
+      {"value": "expensive", "label_vi": "Hôm nay sang chảnh 💳 (>150k)", "label_en": "Treat yourself 💳 (>150k)"},
+      {"value": "any", "label_vi": "Tiền không phải vấn đề 🤑", "label_en": "Money? No problem 🤑"}
+    ],
+    "condition": null
+  },
+  {
+    "id": "q_time",
+    "order": 8,
+    "axis": "time_available",
+    "text_vi": "Bạn đang có bao nhiêu thời gian?",
+    "text_en": "How much time do you have?",
+    "options": [
+      {"value": "quick", "label_vi": "Siêu vội, cần ngay bây giờ ⚡", "label_en": "Super rushed ⚡"},
+      {"value": "normal", "label_vi": "Thoải mái, thong thả 😌", "label_en": "No rush, enjoying it 😌"}
+    ],
+    "condition": null
+  },
+  {
+    "id": "q_mood",
+    "order": 9,
+    "axis": "mood",
+    "text_vi": "Vibe của bạn hôm nay là gì?",
+    "text_en": "What's your mood today?",
+    "options": [
+      {"value": "happy", "label_vi": "Đang phấn khích muốn ăn mừng 🎉", "label_en": "Celebrating something! 🎉"},
+      {"value": "sad", "label_vi": "Hơi xìu, cần món comfort 🥺", "label_en": "Need comfort food 🥺"},
+      {"value": "date", "label_vi": "Hẹn hò cần điểm 💕", "label_en": "Trying to impress 💕"},
+      {"value": "normal", "label_vi": "Ăn bình thường thôi 😐", "label_en": "Just a regular meal 😐"}
+    ],
+    "condition": {"not_mode": "solo"}
+  },
+  {
+    "id": "q_restriction",
+    "order": 10,
+    "axis": "restrictions",
+    "text_vi": "Có điều gì bạn KHÔNG ăn được không?",
+    "text_en": "Anything you CAN'T eat?",
+    "options": [
+      {"value": "none", "label_vi": "Không có kiêng kỵ gì 😄", "label_en": "I eat everything 😄"},
+      {"value": "vegetarian", "label_vi": "Ăn chay hoàn toàn 🌱", "label_en": "Full vegetarian 🌱"},
+      {"value": "no_spicy", "label_vi": "Không ăn được cay 🙅", "label_en": "No spicy food 🙅"},
+      {"value": "no_pork", "label_vi": "Không ăn heo (Halal/tôn giáo) 🐷", "label_en": "No pork 🐷"}
+    ],
+    "condition": null
+  },
+  {
+    "id": "q_spicy_level",
+    "order": 11,
+    "axis": "spicy_level",
+    "text_vi": "Cay đến mức nào là ổn?",
+    "text_en": "How much spice can you handle?",
+    "options": [
+      {"value": "mild_spicy", "label_vi": "Cay nhẹ, tê tê môi thôi 🫦", "label_en": "Just a tingle 🫦"},
+      {"value": "medium_spicy", "label_vi": "Cay vừa, mồ hôi nhẹ 💧", "label_en": "Moderate — some sweat 💧"},
+      {"value": "very_spicy", "label_vi": "Cay hết mình, đổ mồ hôi 🥵", "label_en": "Bring the heat! 🥵"}
+    ],
+    "condition": {"axis": "flavor", "value": "spicy"}
+  },
+  {
+    "id": "q_group_size",
+    "order": 12,
+    "axis": "group_size",
+    "text_vi": "Nhóm bạn có mấy người?",
+    "text_en": "How many people in your group?",
+    "options": [
+      {"value": "small", "label_vi": "2–3 người 👫", "label_en": "2–3 people 👫"},
+      {"value": "medium", "label_vi": "4–6 người 👥", "label_en": "4–6 people 👥"},
+      {"value": "large", "label_vi": "7+ người, đại tiệc 🎊", "label_en": "7+ people, big party 🎊"}
+    ],
+    "condition": {"not_mode": "solo"}
+  },
+  {
+    "id": "q_setting",
+    "order": 13,
+    "axis": "setting",
+    "text_vi": "Bạn muốn ăn ở đâu?",
+    "text_en": "What kind of place are you looking for?",
+    "options": [
+      {"value": "street", "label_vi": "Vỉa hè bình dân, cứ xịn 🛺", "label_en": "Street food, local vibes 🛺"},
+      {"value": "restaurant", "label_vi": "Nhà hàng ngồi thoải mái 🍽️", "label_en": "Sit-down restaurant 🍽️"},
+      {"value": "cozy_cafe", "label_vi": "Quán cozy sống ảo 📸", "label_en": "Cozy café for photos 📸"},
+      {"value": "takeaway", "label_vi": "Mang về ăn nhà 🥡", "label_en": "Takeaway, eat at home 🥡"}
+    ],
+    "condition": null
+  },
+  {
+    "id": "q_health",
+    "order": 14,
+    "axis": "health_priority",
+    "text_vi": "Hôm nay bạn muốn ăn theo kiểu nào?",
+    "text_en": "Any health consideration today?",
+    "options": [
+      {"value": "indulge", "label_vi": "Ăn thoả thích, kệ calories 🍟", "label_en": "Full indulgence, ignore calories 🍟"},
+      {"value": "balanced", "label_vi": "Cân bằng, đủ chất là được 🥦", "label_en": "Balanced & nutritious 🥦"},
+      {"value": "light_diet", "label_vi": "Ăn nhẹ, healthy là ưu tiên 🥗", "label_en": "Light & healthy first 🥗"}
+    ],
+    "condition": null
+  },
+  {
+    "id": "q_drink_included",
+    "order": 15,
+    "axis": "want_drink",
+    "text_vi": "Bạn có muốn đồ uống kèm không?",
+    "text_en": "Looking for a drink to go with it?",
+    "options": [
+      {"value": "yes_cold", "label_vi": "Có, muốn gì đó mát lạnh 🥤", "label_en": "Yes, something cold 🥤"},
+      {"value": "yes_hot", "label_vi": "Có, trà nóng hay cà phê ☕", "label_en": "Yes, hot tea or coffee ☕"},
+      {"value": "no", "label_vi": "Không cần, chỉ ăn thôi 🙅", "label_en": "Nope, food only 🙅"}
+    ],
+    "condition": null
+  }
+]

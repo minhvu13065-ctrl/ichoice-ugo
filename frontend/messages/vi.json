@@ -1,0 +1,71 @@
+{
+  "splash": {
+    "start": "Bắt đầu"
+  },
+  "home": {
+    "tagline": "Hết phân vân — chọn món trong 30 giây.",
+    "start": "Bắt đầu chọn món 🍜",
+    "select_mode": "Hôm nay bạn đi ăn với ai?",
+    "solo": "Một mình",
+    "couple": "Cặp đôi",
+    "friends": "Nhóm bạn",
+    "family": "Gia đình"
+  },
+  "quiz": {
+    "progress": "Câu {current}/{total}",
+    "back": "Quay lại",
+    "thinking": "Đang phân tích khẩu vị..."
+  },
+  "result": {
+    "title": "Món dành cho bạn hôm nay!",
+    "confidence": "Độ phù hợp",
+    "why": "Vì sao?",
+    "view_map": "Xem quán gần đây 🗺️",
+    "swap": "Đổi món khác 🔄",
+    "adjust": "Chỉnh 1 tiêu chí ✏️",
+    "rate": "Đánh giá món này ⭐"
+  },
+  "map": {
+    "title": "Quán gần bạn",
+    "km": "km",
+    "rating": "Đánh giá",
+    "locate": "Định vị tôi",
+    "enter_address": "Nhập địa chỉ thủ công",
+    "no_places": "Không tìm thấy quán nào gần đây."
+  },
+  "review": {
+    "title": "Bạn ăn thấy sao?",
+    "stars": "Chấm sao",
+    "tags_label": "Cảm nhận nhanh",
+    "comment": "Nhận xét thêm (tuỳ chọn)",
+    "submit": "Gửi đánh giá",
+    "thanks": "Cảm ơn bạn! 🙌",
+    "tags": {
+      "delicious": "Ngon",
+      "right_taste": "Đúng vị",
+      "too_salty": "Hơi mặn",
+      "too_spicy": "Hơi cay",
+      "portion_small": "Phần nhỏ",
+      "good_price": "Giá tốt"
+    }
+  },
+  "nav": {
+    "home": "Trang chủ",
+    "map": "Bản đồ",
+    "settings": "Cài đặt"
+  },
+  "settings": {
+    "title": "Cài đặt",
+    "language": "Ngôn ngữ",
+    "theme": "Giao diện",
+    "theme_light": "Sáng",
+    "theme_dark": "Tối",
+    "theme_sunset": "Hoàng hôn",
+    "theme_ocean": "Đại dương"
+  },
+  "error": {
+    "api_fail": "Hệ thống đang bận, thử lại nhé!",
+    "location_denied": "Bạn đã từ chối vị trí. Nhập địa chỉ thủ công nhé.",
+    "swap_limit": "Đã đổi quá nhiều lần rồi 😅"
+  }
+}
