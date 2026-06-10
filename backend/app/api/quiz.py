@@ -3,13 +3,6 @@ from app.services.data_loader import get_questions
 
 router = APIRouter(prefix="/api", tags=["quiz"])
 
-# Câu hỏi chỉ hiện cho mode nhóm (không phải solo)
-GROUP_ONLY = {"q_mood", "q_group_size"}
-# Câu hỏi chỉ hiện cho mode solo
-SOLO_ONLY: set[str] = set()
-# Câu hỏi conditional (xử lý ở frontend dựa trên answer trước)
-CONDITIONAL = {"q_cuisine_vn", "q_spicy_level"}
-
 
 @router.get("/quiz/questions")
 def questions(
@@ -20,15 +13,18 @@ def questions(
 
     filtered = []
     for q in qs:
-        cond = q.get("condition")
+        cond = q.get("condition") or {}
 
-        # Lọc theo mode
-        if mode == "solo" and q["id"] in GROUP_ONLY:
-            continue
-        if mode != "solo" and q["id"] in SOLO_ONLY:
-            continue
+        # Lọc theo mode dựa trên condition.not_mode (string hoặc list)
+        not_modes = cond.get("not_mode")
+        if not_modes:
+            if isinstance(not_modes, str):
+                not_modes = [not_modes]
+            if mode in not_modes:
+                continue
 
-        # Giữ conditional questions — frontend sẽ tự ẩn nếu không thoả điều kiện
+        # Câu hỏi conditional theo axis (q_cuisine_vn, q_spicy_level...)
+        # được giữ lại — frontend sẽ tự ẩn nếu chưa thoả điều kiện.
         filtered.append(q)
 
     return {"questions": filtered, "mode": mode, "lang": lang}

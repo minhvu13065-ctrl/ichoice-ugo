@@ -121,7 +121,7 @@
       {"value": "date", "label_vi": "Hẹn hò cần điểm 💕", "label_en": "Trying to impress 💕"},
       {"value": "normal", "label_vi": "Ăn bình thường thôi 😐", "label_en": "Just a regular meal 😐"}
     ],
-    "condition": {"not_mode": "solo"}
+    "condition": {"not_mode": ["solo"]}
   },
   {
     "id": "q_restriction",
@@ -161,7 +161,7 @@
       {"value": "medium", "label_vi": "4–6 người 👥", "label_en": "4–6 people 👥"},
       {"value": "large", "label_vi": "7+ người, đại tiệc 🎊", "label_en": "7+ people, big party 🎊"}
     ],
-    "condition": {"not_mode": "solo"}
+    "condition": {"not_mode": ["solo", "couple"]}
   },
   {
     "id": "q_setting",
