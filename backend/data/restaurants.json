@@ -1,0 +1,233 @@
+[
+  {
+    "id": "r1",
+    "name": "Phở Hòa Pasteur",
+    "address": "260C Pasteur, Phường Võ Thị Sáu, Quận 3, TP.HCM",
+    "district": "Quận 3",
+    "lat": 10.7872,
+    "lng": 106.6896,
+    "rating": 4.7,
+    "open": "6:00 – 23:00",
+    "dishes": ["pho_bo", "pho_ga", "ca_phe_sua_da"]
+  },
+  {
+    "id": "r2",
+    "name": "Cơm Tấm Ba Ghiền",
+    "address": "84 Đặng Văn Ngữ, Phường 10, Quận Phú Nhuận, TP.HCM",
+    "district": "Phú Nhuận",
+    "lat": 10.7989,
+    "lng": 106.6797,
+    "rating": 4.6,
+    "open": "6:00 – 22:00",
+    "dishes": ["com_tam", "banh_mi_op_la", "xoi_ga", "com_ga_xoi_mo"]
+  },
+  {
+    "id": "r3",
+    "name": "Bánh Xèo 46A Đinh Công Tráng",
+    "address": "46A Đinh Công Tráng, Phường Tân Định, Quận 1, TP.HCM",
+    "district": "Quận 1",
+    "lat": 10.7905,
+    "lng": 106.6917,
+    "rating": 4.5,
+    "open": "10:00 – 21:00",
+    "dishes": ["banh_xeo", "goi_cuon", "nem_nuong_nha_trang", "banh_khot"]
+  },
+  {
+    "id": "r4",
+    "name": "Bún Bò Huế Đông Ba",
+    "address": "110 Lê Thánh Tôn, Quận 1, TP.HCM",
+    "district": "Quận 1",
+    "lat": 10.7766,
+    "lng": 106.7016,
+    "rating": 4.5,
+    "open": "6:30 – 21:00",
+    "dishes": ["bun_bo_hue", "bun_rieu", "bun_mam", "banh_canh_cua", "lau_riêu_cua"]
+  },
+  {
+    "id": "r5",
+    "name": "Quán Ụt Ụt - BBQ Ribs",
+    "address": "168 Vĩnh Khánh, Phường 6, Quận 4, TP.HCM",
+    "district": "Quận 4",
+    "lat": 10.7596,
+    "lng": 106.7022,
+    "rating": 4.6,
+    "open": "11:00 – 23:00",
+    "dishes": ["hai_san_nuong", "ga_nuong_muoi_ot", "lau_nuong", "muc_rang_muoi"]
+  },
+  {
+    "id": "r6",
+    "name": "Hủ Tiếu Nam Vang Thanh Xuân",
+    "address": "62 Tôn Thất Tùng, Phường Phạm Ngũ Lão, Quận 1, TP.HCM",
+    "district": "Quận 1",
+    "lat": 10.7693,
+    "lng": 106.6932,
+    "rating": 4.4,
+    "open": "6:00 – 22:00",
+    "dishes": ["hu_tieu", "chao_ga", "chao_long", "mi_quang"]
+  },
+  {
+    "id": "r7",
+    "name": "Bún Chả Hàng Xanh",
+    "address": "145 Xô Viết Nghệ Tĩnh, Phường 17, Quận Bình Thạnh, TP.HCM",
+    "district": "Bình Thạnh",
+    "lat": 10.8019,
+    "lng": 106.7090,
+    "rating": 4.4,
+    "open": "9:00 – 21:00",
+    "dishes": ["bun_cha", "spring_roll_chien", "banh_cuon", "goi_ngo_sen"]
+  },
+  {
+    "id": "r8",
+    "name": "Lẩu Thái Tomyum Quận 3",
+    "address": "87 Nguyễn Thông, Phường 9, Quận 3, TP.HCM",
+    "district": "Quận 3",
+    "lat": 10.7822,
+    "lng": 106.6845,
+    "rating": 4.6,
+    "open": "10:00 – 22:00",
+    "dishes": ["lau_thai", "tom_yum", "pad_thai"]
+  },
+  {
+    "id": "r9",
+    "name": "Gogi House Vincom Center",
+    "address": "Tầng B1, Vincom Center, 72 Lê Thánh Tôn, Quận 1, TP.HCM",
+    "district": "Quận 1",
+    "lat": 10.7795,
+    "lng": 106.7022,
+    "rating": 4.5,
+    "open": "10:00 – 22:00",
+    "dishes": ["samgyeopsal", "bibimbap", "tteokbokki", "mi_cay_han_quoc", "kimbap"]
+  },
+  {
+    "id": "r10",
+    "name": "K-Pub BBQ & Beer",
+    "address": "26 Lý Tự Trọng, Quận 1, TP.HCM",
+    "district": "Quận 1",
+    "lat": 10.7757,
+    "lng": 106.7011,
+    "rating": 4.4,
+    "open": "11:00 – 23:00",
+    "dishes": ["samgyeopsal", "ga_ran", "mi_cay_han_quoc"]
+  },
+  {
+    "id": "r11",
+    "name": "Sushi Hokkaido Sachi",
+    "address": "199 Nguyễn Thị Minh Khai, Quận 1, TP.HCM",
+    "district": "Quận 1",
+    "lat": 10.7740,
+    "lng": 106.6940,
+    "rating": 4.6,
+    "open": "10:00 – 22:00",
+    "dishes": ["sushi_set", "ramen_tonkotsu", "ramen_spicy_miso", "udon", "takoyaki"]
+  },
+  {
+    "id": "r12",
+    "name": "Pizza 4P's Lê Thánh Tôn",
+    "address": "8/15 Lê Thánh Tôn, Quận 1, TP.HCM",
+    "district": "Quận 1",
+    "lat": 10.7779,
+    "lng": 106.7034,
+    "rating": 4.7,
+    "open": "10:00 – 22:30",
+    "dishes": ["pizza_margherita", "pasta_carbonara", "salad_ga"]
+  },
+  {
+    "id": "r13",
+    "name": "The Pizza Company Hai Bà Trưng",
+    "address": "196 Hai Bà Trưng, Phường Đa Kao, Quận 1, TP.HCM",
+    "district": "Quận 1",
+    "lat": 10.7838,
+    "lng": 106.6989,
+    "rating": 4.3,
+    "open": "10:00 – 22:00",
+    "dishes": ["pizza_margherita", "burger_bbq", "steakhouse"]
+  },
+  {
+    "id": "r14",
+    "name": "Dimsum Phố Người Hoa",
+    "address": "97 Châu Văn Liêm, Phường 14, Quận 5, TP.HCM",
+    "district": "Quận 5",
+    "lat": 10.7530,
+    "lng": 106.6663,
+    "rating": 4.5,
+    "open": "8:00 – 21:00",
+    "dishes": ["dimsum", "com_rang_duong_chau", "hu_tieu"]
+  },
+  {
+    "id": "r15",
+    "name": "An Chay Nam An",
+    "address": "209 Nguyễn Văn Hưởng, Phường Thảo Điền, TP. Thủ Đức, TP.HCM",
+    "district": "Thủ Đức",
+    "lat": 10.8053,
+    "lng": 106.7378,
+    "rating": 4.3,
+    "open": "7:00 – 20:00",
+    "dishes": ["com_chay", "bun_chay", "banh_mi_chay", "banhmy_chay_dau_hu", "banh_flan"]
+  },
+  {
+    "id": "r16",
+    "name": "Bún Đậu Mắm Tôm Phố Cổ",
+    "address": "16 Đinh Tiên Hoàng, Phường Đa Kao, Quận 1, TP.HCM",
+    "district": "Quận 1",
+    "lat": 10.7901,
+    "lng": 106.7028,
+    "rating": 4.4,
+    "open": "10:00 – 21:00",
+    "dishes": ["bun_dau_mam_tom", "spring_roll_chien"]
+  },
+  {
+    "id": "r17",
+    "name": "Ốc Đào Quận 4",
+    "address": "196 Vĩnh Khánh, Phường 6, Quận 4, TP.HCM",
+    "district": "Quận 4",
+    "lat": 10.7589,
+    "lng": 106.7026,
+    "rating": 4.6,
+    "open": "16:00 – 24:00",
+    "dishes": ["oc_xao_me", "muc_rang_muoi", "banh_trang_tron", "nuoc_mia"]
+  },
+  {
+    "id": "r18",
+    "name": "Bánh Tráng Trộn Cô Năm",
+    "address": "78 Nguyễn Thượng Hiền, Phường 5, Quận 3, TP.HCM",
+    "district": "Quận 3",
+    "lat": 10.7796,
+    "lng": 106.6856,
+    "rating": 4.5,
+    "open": "14:00 – 22:00",
+    "dishes": ["banh_trang_tron", "goi_kho_bo", "tra_dao_cam_sa", "banh_bot_loc", "banh_trang_nuong"]
+  },
+  {
+    "id": "r19",
+    "name": "Cà Phê & Trà Sữa Phố Đi Bộ",
+    "address": "31 Nguyễn Huệ, Quận 1, TP.HCM",
+    "district": "Quận 1",
+    "lat": 10.7745,
+    "lng": 106.7041,
+    "rating": 4.5,
+    "open": "7:00 – 23:00",
+    "dishes": ["ca_phe_sua_da", "tra_sua", "tra_dao_cam_sa", "sinh_to_bo", "kem_dua", "che_ba_mau"]
+  },
+  {
+    "id": "r20",
+    "name": "Bò Né Sài Gòn Xưa",
+    "address": "49 Mạc Thị Bưởi, Quận 1, TP.HCM",
+    "district": "Quận 1",
+    "lat": 10.7755,
+    "lng": 106.7037,
+    "rating": 4.5,
+    "open": "6:00 – 14:00",
+    "dishes": ["bo_ne", "banh_mi", "pha_lau", "com_ga_hoi_an"]
+  },
+  {
+    "id": "r21",
+    "name": "Quán Hội An Phố",
+    "address": "11 Tú Xương, Phường 7, Quận 3, TP.HCM",
+    "district": "Quận 3",
+    "lat": 10.7831,
+    "lng": 106.6885,
+    "rating": 4.5,
+    "open": "9:00 – 21:00",
+    "dishes": ["cao_lau", "com_ga_hoi_an", "mi_quang"]
+  }
+]

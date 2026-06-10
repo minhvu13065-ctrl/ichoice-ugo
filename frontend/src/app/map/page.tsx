@@ -8,8 +8,8 @@ import dynamic from "next/dynamic";
 
 const MapView = dynamic(() => import("@/components/MapView"), { ssr: false });
 
-// Fallback: trung tâm Hà Nội (thay vì HCM — dễ test hơn nếu user ở miền Bắc)
-const DEFAULT_CENTER: [number, number] = [21.0278, 105.8342];
+// Fallback: trung tâm TP.HCM (Quận 1) — dữ liệu quán hiện chỉ phủ khu vực TP.HCM
+const DEFAULT_CENTER: [number, number] = [10.7769, 106.7009];
 
 export default function MapPage() {
   const router = useRouter();

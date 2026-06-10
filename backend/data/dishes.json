@@ -838,5 +838,230 @@
       "restrictions": ["seafood"], "is_vegan": false, "is_vegetarian": false
     },
     "avg_rating": 4.5, "review_count": 190
+  },
+  {
+    "id": "oc_xao_me",
+    "name_vi": "Ốc Xào Me",
+    "name_en": "Tamarind Stir-Fried Snails",
+    "description_vi": "Ốc móng tay/ốc hương xào me chua ngọt cay, ăn kèm bánh mì giòn.",
+    "description_en": "Snails stir-fried in sweet-sour-spicy tamarind sauce, served with crusty bread.",
+    "image_url": "/images/oc_xao_me.jpg",
+    "attributes": {
+      "spicy": 0.4, "sour": 0.5, "sweet": 0.4, "salty": 0.4, "rich": 0.3,
+      "temperature": "hot", "fullness": "light", "cuisine": "vietnamese",
+      "price_range": "medium", "group_tags": ["party", "friends", "share"],
+      "restrictions": ["seafood"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.6, "review_count": 250
+  },
+  {
+    "id": "banh_trang_tron",
+    "name_vi": "Bánh Tráng Trộn",
+    "name_en": "Mixed Rice Paper Salad",
+    "description_vi": "Bánh tráng trộn khô bò trứng cút xoài rau răm đậu phộng cay cay.",
+    "description_en": "Shredded rice paper mixed with dried beef, quail egg, mango and peanuts.",
+    "image_url": "/images/banh_trang_tron.jpg",
+    "attributes": {
+      "spicy": 0.5, "sour": 0.4, "sweet": 0.3, "salty": 0.5, "rich": 0.3,
+      "temperature": "room", "fullness": "light", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["solo", "party", "friends"],
+      "restrictions": ["meat"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.5, "review_count": 310
+  },
+  {
+    "id": "ca_phe_sua_da",
+    "name_vi": "Cà Phê Sữa Đá",
+    "name_en": "Vietnamese Iced Milk Coffee",
+    "description_vi": "Cà phê phin đậm đà hòa cùng sữa đặc, đá lạnh tan dần thơm béo.",
+    "description_en": "Strong drip coffee mixed with sweetened condensed milk over ice.",
+    "image_url": "/images/ca_phe_sua_da.jpg",
+    "attributes": {
+      "spicy": 0.0, "sour": 0.0, "sweet": 0.6, "salty": 0.0, "rich": 0.5,
+      "temperature": "cold", "fullness": "light", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["solo", "date"],
+      "restrictions": [], "is_vegan": false, "is_vegetarian": true
+    },
+    "avg_rating": 4.6, "review_count": 290
+  },
+  {
+    "id": "tra_dao_cam_sa",
+    "name_vi": "Trà Đào Cam Sả",
+    "name_en": "Peach Lemongrass Tea",
+    "description_vi": "Trà đào thơm mát kết hợp cam tươi và sả, giải nhiệt sảng khoái.",
+    "description_en": "Refreshing peach tea with fresh orange and lemongrass.",
+    "image_url": "/images/tra_dao_cam_sa.jpg",
+    "attributes": {
+      "spicy": 0.0, "sour": 0.3, "sweet": 0.6, "salty": 0.0, "rich": 0.05,
+      "temperature": "cold", "fullness": "light", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["solo", "date", "friends"],
+      "restrictions": [], "is_vegan": true, "is_vegetarian": true
+    },
+    "avg_rating": 4.5, "review_count": 260
+  },
+  {
+    "id": "bo_ne",
+    "name_vi": "Bò Né",
+    "name_en": "Sizzling Beef & Eggs",
+    "description_vi": "Bò né chảo gang nóng hổi, trứng ốp la, pate ăn kèm bánh mì.",
+    "description_en": "Sizzling pan-seared beef with fried eggs and pâté, served with bread.",
+    "image_url": "/images/bo_ne.jpg",
+    "attributes": {
+      "spicy": 0.3, "sour": 0.05, "sweet": 0.1, "salty": 0.5, "rich": 0.7,
+      "temperature": "hot", "fullness": "full", "cuisine": "vietnamese",
+      "price_range": "medium", "group_tags": ["solo", "date"],
+      "restrictions": ["meat"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.5, "review_count": 175
+  },
+  {
+    "id": "mi_cay_han_quoc",
+    "name_vi": "Mì Cay Hàn Quốc",
+    "name_en": "Korean Spicy Noodles",
+    "description_vi": "Mì cay 7 cấp độ kiểu Hàn, nước dùng đỏ cay nồng topping hải sản chả cá.",
+    "description_en": "Korean-style spicy noodles with adjustable heat levels, seafood and fish cake.",
+    "image_url": "/images/mi_cay_han_quoc.jpg",
+    "attributes": {
+      "spicy": 0.95, "sour": 0.05, "sweet": 0.2, "salty": 0.55, "rich": 0.5,
+      "temperature": "hot", "fullness": "full", "cuisine": "korean",
+      "price_range": "medium", "group_tags": ["solo", "friends", "party"],
+      "restrictions": ["meat", "seafood"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.4, "review_count": 230
+  },
+  {
+    "id": "kimbap",
+    "name_vi": "Kimbap",
+    "name_en": "Korean Seaweed Rice Roll",
+    "description_vi": "Cơm cuộn rong biển kiểu Hàn nhân trứng, giò, rau củ đầy màu sắc.",
+    "description_en": "Korean seaweed rice rolls filled with egg, ham and colorful vegetables.",
+    "image_url": "/images/kimbap.jpg",
+    "attributes": {
+      "spicy": 0.05, "sour": 0.1, "sweet": 0.15, "salty": 0.4, "rich": 0.35,
+      "temperature": "room", "fullness": "medium", "cuisine": "korean",
+      "price_range": "cheap", "group_tags": ["solo", "share"],
+      "restrictions": ["meat"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.3, "review_count": 110
+  },
+  {
+    "id": "nem_nuong_nha_trang",
+    "name_vi": "Nem Nướng Nha Trang",
+    "name_en": "Nha Trang Grilled Pork Skewers",
+    "description_vi": "Nem nướng thơm lừng cuốn bánh tráng rau sống chấm sốt me đậu phộng.",
+    "description_en": "Grilled pork skewers wrapped in rice paper with herbs and tamarind-peanut sauce.",
+    "image_url": "/images/nem_nuong_nha_trang.jpg",
+    "attributes": {
+      "spicy": 0.2, "sour": 0.3, "sweet": 0.3, "salty": 0.45, "rich": 0.5,
+      "temperature": "hot", "fullness": "medium", "cuisine": "vietnamese",
+      "price_range": "medium", "group_tags": ["share", "family", "friends"],
+      "restrictions": ["meat", "pork"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.5, "review_count": 140
+  },
+  {
+    "id": "banh_khot",
+    "name_vi": "Bánh Khọt",
+    "name_en": "Mini Savory Pancakes",
+    "description_vi": "Bánh khọt nhỏ giòn rụm nhân tôm, ăn kèm rau sống và nước mắm chua ngọt.",
+    "description_en": "Crispy mini savory pancakes topped with shrimp, served with herbs and fish sauce.",
+    "image_url": "/images/banh_khot.jpg",
+    "attributes": {
+      "spicy": 0.1, "sour": 0.2, "sweet": 0.15, "salty": 0.4, "rich": 0.55,
+      "temperature": "hot", "fullness": "medium", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["share", "friends", "family"],
+      "restrictions": ["seafood"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.4, "review_count": 165
+  },
+  {
+    "id": "pha_lau",
+    "name_vi": "Phá Lấu",
+    "name_en": "Vietnamese Beef Offal Stew",
+    "description_vi": "Phá lấu nước cốt dừa béo đậm đà, ăn kèm bánh mì hoặc mì gói.",
+    "description_en": "Rich coconut-milk beef offal stew, served with bread or instant noodles.",
+    "image_url": "/images/pha_lau.jpg",
+    "attributes": {
+      "spicy": 0.3, "sour": 0.05, "sweet": 0.1, "salty": 0.55, "rich": 0.75,
+      "temperature": "hot", "fullness": "medium", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["solo", "share", "friends"],
+      "restrictions": ["meat"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.4, "review_count": 150
+  },
+  {
+    "id": "udon",
+    "name_vi": "Udon Nhật Bản",
+    "name_en": "Japanese Udon",
+    "description_vi": "Sợi udon dai mềm trong nước dùng dashi thanh nhẹ, topping tempura tôm.",
+    "description_en": "Thick chewy udon noodles in light dashi broth with shrimp tempura.",
+    "image_url": "/images/udon.jpg",
+    "attributes": {
+      "spicy": 0.05, "sour": 0.0, "sweet": 0.1, "salty": 0.5, "rich": 0.45,
+      "temperature": "hot", "fullness": "full", "cuisine": "japanese",
+      "price_range": "medium", "group_tags": ["solo", "date"],
+      "restrictions": ["meat", "seafood"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.4, "review_count": 120
+  },
+  {
+    "id": "goi_kho_bo",
+    "name_vi": "Gỏi Khô Bò",
+    "name_en": "Dried Beef Papaya Salad",
+    "description_vi": "Gỏi đu đủ khô bò chua cay giòn sần sật, rắc đậu phộng rau răm.",
+    "description_en": "Crunchy green papaya salad with dried beef, peanuts and Vietnamese coriander.",
+    "image_url": "/images/goi_kho_bo.jpg",
+    "attributes": {
+      "spicy": 0.45, "sour": 0.6, "sweet": 0.3, "salty": 0.4, "rich": 0.25,
+      "temperature": "cold", "fullness": "light", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["solo", "party", "friends"],
+      "restrictions": ["meat"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.4, "review_count": 175
+  },
+  {
+    "id": "banh_bot_loc",
+    "name_vi": "Bánh Bột Lọc",
+    "name_en": "Tapioca Dumplings",
+    "description_vi": "Bánh bột lọc trong dai nhân tôm thịt, gói lá chuối chấm nước mắm ớt.",
+    "description_en": "Translucent chewy tapioca dumplings filled with shrimp and pork, wrapped in banana leaf.",
+    "image_url": "/images/banh_bot_loc.jpg",
+    "attributes": {
+      "spicy": 0.25, "sour": 0.1, "sweet": 0.05, "salty": 0.5, "rich": 0.3,
+      "temperature": "hot", "fullness": "light", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["share", "family"],
+      "restrictions": ["seafood", "pork"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.3, "review_count": 95
+  },
+  {
+    "id": "com_ga_xoi_mo",
+    "name_vi": "Cơm Gà Xối Mỡ",
+    "name_en": "Crispy Fried Chicken Rice",
+    "description_vi": "Cơm gà đùi chiên giòn rụm xối mỡ, ăn kèm cơm dẻo và đồ chua.",
+    "description_en": "Crispy oil-poured fried chicken thigh served over fragrant rice with pickles.",
+    "image_url": "/images/com_ga_xoi_mo.jpg",
+    "attributes": {
+      "spicy": 0.1, "sour": 0.05, "sweet": 0.15, "salty": 0.5, "rich": 0.7,
+      "temperature": "hot", "fullness": "full", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["solo", "family"],
+      "restrictions": ["meat"], "is_vegan": false, "is_vegetarian": false
+    },
+    "avg_rating": 4.5, "review_count": 200
+  },
+  {
+    "id": "banh_flan",
+    "name_vi": "Bánh Flan",
+    "name_en": "Vietnamese Caramel Custard",
+    "description_vi": "Bánh flan mềm mịn beo béo phủ caramel đắng nhẹ, thêm đá hoặc cà phê.",
+    "description_en": "Silky smooth caramel custard, served with ice or a shot of coffee.",
+    "image_url": "/images/banh_flan.jpg",
+    "attributes": {
+      "spicy": 0.0, "sour": 0.0, "sweet": 0.75, "salty": 0.05, "rich": 0.5,
+      "temperature": "cold", "fullness": "light", "cuisine": "vietnamese",
+      "price_range": "cheap", "group_tags": ["solo", "date", "family"],
+      "restrictions": [], "is_vegan": false, "is_vegetarian": true
+    },
+    "avg_rating": 4.4, "review_count": 130
   }
 ]
