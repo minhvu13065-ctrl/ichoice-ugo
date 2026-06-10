@@ -25,9 +25,13 @@ export default function QuizPage() {
   const [current, setCurrent] = useState(0);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  const [questionsError, setQuestionsError] = useState(false);
 
   useEffect(() => {
-    api.getQuestions(mode, lang).then((r) => setAllQuestions(r.questions));
+    setQuestionsError(false);
+    api.getQuestions(mode, lang)
+      .then((r) => setAllQuestions(r.questions))
+      .catch(() => setQuestionsError(true));
   }, [mode, lang]);
 
   // Danh sách câu hỏi hiện tại (lọc conditional)
@@ -36,6 +40,16 @@ export default function QuizPage() {
   const q = visibleQuestions[current];
 
   if (!allQuestions.length || !q) {
+    if (questionsError) {
+      return (
+        <div className="flex flex-col items-center justify-center min-h-dvh gap-6 px-6 text-center animate-in">
+          <p className="font-medium" style={{ color: "var(--text2)" }}>{t("error.api_fail")}</p>
+          <button onClick={() => router.push("/home")} className="btn-primary px-8 py-3">
+            ← {t("quiz.back")}
+          </button>
+        </div>
+      );
+    }
     return (
       <div className="flex items-center justify-center min-h-dvh">
         <div className="spinner" />
