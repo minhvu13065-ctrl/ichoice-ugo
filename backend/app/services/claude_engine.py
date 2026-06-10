@@ -73,7 +73,7 @@ Câu trả lời quiz:
 - Tâm trạng: {answers.mood or 'bình thường'}
 - Hạn chế ăn: {answers.restrictions or 'không có'}{extras}{excluded_note}{feedback_note}
 
-Danh sách món ứng viên (chỉ được chọn trong đây):
+Danh sách món ứng viên (chỉ được chọn trong đây, đã sắp xếp theo độ phù hợp giảm dần — món đầu tiên phù hợp nhất với câu trả lời quiz):
 {candidate_list}
 
 Trả về JSON ngay, không giải thích thêm."""
@@ -116,19 +116,19 @@ def call_claude(
 
 
 def _fallback(candidates: list[Dish], excluded_ids: list[str]) -> dict:
-    """Heuristic đơn giản khi Claude API lỗi."""
+    """Heuristic đơn giản khi Claude API lỗi — candidates đã được rank_candidates
+    sắp xếp theo độ phù hợp giảm dần, nên chọn món đầu tiên còn khả dụng."""
     available = [d for d in candidates if d.id not in excluded_ids]
     if not available:
         available = candidates
-    chosen = max(available, key=lambda d: d.avg_rating)
-    alt_pool = [d for d in available if d.id != chosen.id]
-    alternative = alt_pool[0].id if alt_pool else chosen.id
+    chosen = available[0]
+    alternative = available[1].id if len(available) > 1 else chosen.id
 
     return {
         "chosen_dish_id": chosen.id,
         "confidence": 0.5,
-        "reason_vi": "Món được yêu thích nhất!",
-        "reason_en": "Most popular dish!",
+        "reason_vi": "Món phù hợp nhất với lựa chọn của bạn!",
+        "reason_en": "Best match for your picks!",
         "alternative_dish_id": alternative,
     }
 

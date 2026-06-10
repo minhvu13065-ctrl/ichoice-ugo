@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException
 from app.models.quiz import RecommendationRequest, SwapRequest, RecommendationResponse
 from app.services.data_loader import get_dishes
-from app.services.filter import hard_filter
+from app.services.filter import hard_filter, rank_candidates
 from app.services.claude_engine import call_claude
 from app.services.session_store import Session, save_session, get_session, mark_excluded
 from app.core.config import settings
@@ -28,6 +28,7 @@ def _build_response(result: dict, session_id: str) -> RecommendationResponse:
 def recommend(req: RecommendationRequest):
     all_dishes = get_dishes()
     candidates = hard_filter(all_dishes, req.answers, req.mode)
+    candidates = rank_candidates(candidates, req.answers, req.mode, req.extra)
     result = call_claude(req.answers, req.mode, req.lang, candidates, extra=req.extra)
 
     session = Session(
@@ -76,6 +77,7 @@ def swap(req: SwapRequest):
     # Gọi lại Claude với excluded list
     all_dishes = get_dishes()
     candidates = hard_filter(all_dishes, session.answers, session.mode)
+    candidates = rank_candidates(candidates, session.answers, session.mode)
     result = call_claude(session.answers, session.mode, req.lang, candidates, session.excluded_ids)
     session.chosen_dish_id = result["chosen_dish_id"]
     session.alternative_dish_id = result.get("alternative_dish_id", "")
