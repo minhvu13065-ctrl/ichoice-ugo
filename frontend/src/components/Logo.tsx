@@ -33,10 +33,11 @@ export default function Logo({ size = 96, showWordmark = true, variant = "defaul
       </svg>
       {showWordmark && (
         <div
-          className="font-black tracking-tight"
-          style={{ fontSize: size * 0.32, color: textColor, lineHeight: 1 }}
+          className="font-black tracking-tight text-center"
+          style={{ fontSize: size * 0.32, color: textColor, lineHeight: 1.15 }}
         >
-          iChoice <span style={{ color: uColor }}>u</span>Go
+          <div>iChoice</div>
+          <div style={{ color: uColor }}>uGo</div>
         </div>
       )}
     </div>
